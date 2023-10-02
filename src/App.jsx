@@ -6,7 +6,7 @@ import History from './components/History';
 import {calculateWinner} from './winner';
 
 
-const NEW_GAME = [{quares :Array(9).fill(null) , isXNext : false }];
+const NEW_GAME = [{squares :Array(9).fill(null) , isXNext : false }];
 
 function App() {
   const[history , setHistory] = useState(NEW_GAME);
